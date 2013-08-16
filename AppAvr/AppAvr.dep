@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1641289891</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\AppAvr.d90</file>
+      <file>$PROJ_DIR$\Debug\Obj\global.r90</file>
+      <file>$PROJ_DIR$\Debug\List\AppAvr.map</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm16.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\global.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iom16.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD12864.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\drawimg.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul-sf.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\dispstamachine.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\keypad.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\keypad.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\drawnumber.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\drawnumber.pbi</file>
+      <file>$PROJ_DIR$\platform_macro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AppAvr.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\dispstamachine.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\drawimg.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\src\lib\dlib\main.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\AppAvr.HEX</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\LCD12864.r90</file>
+      <file>$PROJ_DIR$\global.h</file>
+      <file>$PROJ_DIR$\keypad.c</file>
+      <file>$PROJ_DIR$\keypad.h</file>
+      <file>$PROJ_DIR$\LCD12864.c</file>
+      <file>$PROJ_DIR$\LCD12864.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\typedef.h</file>
+      <file>$PROJ_DIR$\dispstamachine.h</file>
+      <file>$PROJ_DIR$\drawimg.c</file>
+      <file>$PROJ_DIR$\drawimg.h</file>
+      <file>$PROJ_DIR$\drawnumber.c</file>
+      <file>$PROJ_DIR$\drawnumber.h</file>
+      <file>$PROJ_DIR$\global.c</file>
+      <file>$PROJ_DIR$\dispstamachine.c</file>
+      <file>$PROJ_DIR$\common.h</file>
+      <file>$PROJ_DIR$\delay.c</file>
+      <file>$PROJ_DIR$\delay.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\AppAvr.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 2 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 26 27 6 20 8 16 1 12 9 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0 2 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\AppAvr.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 7 15 11 21 17 4 14 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\keypad.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30 42 23 5 13 18 34 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 42 23 5 13 18 34 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LCD12864.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32 23 5 13 42 18 34 44 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 23 5 13 42 18 34 44 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23 5 13 32 42 18 34 44 39 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 5 13 32 42 18 34 44 39 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drawimg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 37 42 23 5 13 18 34 44 28 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 42 23 5 13 18 34 44 28 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drawnumber.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 39 42 23 5 13 18 34 44 28 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 42 23 5 13 18 34 44 28 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\global.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 28 42 23 5 13 18 34 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 42 23 5 13 18 34 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\dispstamachine.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 35 42 23 5 13 18 34 44 37 28 32 30 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 42 23 5 13 18 34 44 37 28 32 30 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 44 42 23 5 13 18 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 42 23 5 13 18 34</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
